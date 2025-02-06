@@ -1,0 +1,42 @@
+#cardData{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+#header{
+    height: 80px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+#footer{
+    background-color: lightblue;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+#foot1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+#foot12{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+    justify-content: space-around;
+}
+#foot22{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+    justify-content: space-around;
+}
