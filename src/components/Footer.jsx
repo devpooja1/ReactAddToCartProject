@@ -14,19 +14,27 @@ const Footer=()=>{
                         </ul>    
                     </div>
                     <div>
-                        
-                        Amazon Web Services
-                        Scalable Cloud
-                        Computing Services
+                        <ul>
+                            <li>Amazon Web Services</li>
+                            <li>Scalable Cloud</li>
+                            <li>Computing Services</li>
+                        </ul>
                     </div>
                     <div>
-                        Audible
-                        Download
-                        Audio Books
+                        <ul>
+                            <li>Audible</li>
+                            <li>Download</li>
+                            <li>Audio Books</li>
+                        </ul>
                     </div>
-                    <div>IMDb
-                         Movies, TV
-                         & Celebrities
+                    <div>
+                        <ul>
+                            <li>IMDb</li>
+                            <li>Movies, TV</li>
+                            <li>& Celebrities</li>
+                        </ul>
+                         
+                         
                     </div>
                 </div>
                 <div id="foot22">

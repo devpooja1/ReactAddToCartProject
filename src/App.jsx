@@ -3,6 +3,7 @@ import Layout from "./Layout";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Registration from "./pages/Registration";
+import Cart from "./pages/Cart";
 
 
 
@@ -16,6 +17,8 @@ const App=()=>{
         <Route path="home" element={<Home/>}/>
         <Route path="login" element={<Login/>}/>
         <Route path="registration" element={<Registration/>}/>
+        <Route path="cart" element={<Cart/>}/>
+        
 
 
         </Route>

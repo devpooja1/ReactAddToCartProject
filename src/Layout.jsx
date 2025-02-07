@@ -8,8 +8,12 @@ import Footer from "./components/Footer";
 const Layout=()=>{
     return(
         <>
+        <div id="head">
         <Header/>
         <TopMenu/>
+        </div>
+
+        
         <Outlet/>
         <Footer/>
         </>
