@@ -41,14 +41,14 @@ const Home=()=>{
           
           {key.price}
         </Card.Text>
-        <Button  
+        {/* <Button  
         onClick={()=>{dispatch(addtoWishlist({id:key.id,
                                           name:key.name,    
                                           desc:key.description,
                                           price:key.price, 
                                           image:key.image,
                                           qnty:1}))}}>
-            Add to Wishlist </Button>
+            Add to Wishlist </Button> */}
 
         <Button  
         onClick={()=>{dispatch(addtoCart({id:key.id,
