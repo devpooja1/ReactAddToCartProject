@@ -1,0 +1,79 @@
+/* Footer Styles */
+#footer {
+    /* background: #232f3e; Amazon Dark Theme */
+    background-color: lightblue;
+    height: 370px;
+    color: black;
+    font-family: Arial, sans-serif;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+/* First Section */
+#foot1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #37475a;
+}
+
+/* Footer Columns */
+#foot12, #foot22 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    gap: 40px;
+}
+
+/* Footer Lists */
+#foot12 div ul {
+    list-style: none;
+    padding: 0;
+}
+
+#foot12 div ul li {
+    font-size: 16px;
+    font-weight: 600;
+    color: #070707;
+    margin-bottom: 5px;
+    transition: color 0.3s ease;
+}
+
+#foot12 div ul li:hover {
+    color: #ca9038;
+    cursor: pointer;
+}
+
+/* Second Section */
+#foot22 div {
+    font-size: 14px;
+    color: #0a0a0a;
+    max-width: 200px;
+    text-align: left;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+#foot22 div:hover {
+    color: #ff9900;
+}
+
+/* Footer Bottom */
+#foot23 {
+    font-size: 12px;
+    color: #0a0a0a;
+    margin-top: 5px; 
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #foot12, #foot22 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}

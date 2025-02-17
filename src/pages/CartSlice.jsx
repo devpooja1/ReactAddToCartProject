@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-// import {message} from "antd"
+import {message} from "antd"
 
 
 const cartSlice=createSlice({
@@ -21,9 +21,38 @@ const cartSlice=createSlice({
             
             
             // console.log(actions.payload)
-        }
+        },
+        qntyInc:(state, actions)=>{
+            for(var i=0; i<state.cart.length; i++)
+            {
+                if(state.cart[i].id==actions.payload.id)
+                {
+                    state.cart[i].qnty++;
+                }
+            }
+        },
+        qntyDec:(state, actions)=>{
+            for(var i=0; i<state.cart.length; i++)
+            {
+                if(state.cart[i].id==actions.payload.id)
+                {
+                    if(state.cart[i].qnty<=1)
+                    {
+                        alert("Quantity not less then 1")
+                    }else
+                    {
+                        state.cart[i].qnty--;
+                    }
+                   
+                }
+            }
+        },
+        proDelete:(state, actions)=>{
+            state.cart= state.cart.filter(key=>key.id!=actions.payload)
+           }
+        
     }
 
 })
-export const {addtoCart} = cartSlice.actions;
+export const {addtoCart, qntyInc, qntyDec, proDelete} = cartSlice.actions;
 export default cartSlice.reducer;

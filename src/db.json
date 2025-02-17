@@ -5,6 +5,7 @@
             "name":"Redmi",
             "description":"ajhdjhacavd",
             "price":40000,
+            "category":"mobile",
             "image":"https://m.media-amazon.com/images/I/41Qk2Ca0TEL._SX300_SY300_QL70_FMwebp_.jpg"
         },
         {
@@ -12,6 +13,7 @@
             "name":"iPhone",
             "description":"Advanced dual-camera system",
             "price":70000,
+            "category":"mobile",
             "image":"https://m.media-amazon.com/images/I/71xb2xkN5qL._SX679_.jpg"
         },{
             "id":3,
@@ -24,79 +26,92 @@
             "name":"iQOo",
             "description":"PROCESSOR : Powered by MediaTek Dimensity 7300 with 702K",
             "price":40000,
+            "category":"mobile",
             "image":"https://m.media-amazon.com/images/I/41tS3gyOW1L._SX300_SY300_QL70_FMwebp_.jpg"
         },{
             "id":5,
             "name":"Lenovo",
             "description":"Tablet",
             "price":10000,
+            "category":"mobile",
             "image":"https://m.media-amazon.com/images/I/61qwQehNiHL._AC_UY327_FMwebp_QL65_.jpg"
         },{
             "id":6,
             "name":"Lenovo",
             "description":"Lenovo ThinkPad 8th Gen Intel Core i5 Thin & Light HD Laptop",
             "price":17999,
+            "category":"mobile",
             "image":"https://m.media-amazon.com/images/I/611AaVzaCQL._AC_UY327_FMwebp_QL65_.jpg"
-        },{
+        },
+        {
             "id":7,
             "name":"WZATCO",
             "description":"Projector",
             "price":9499,
+            "category":"mobile",
             "image":"https://m.media-amazon.com/images/I/61cnRrZj5PL._AC_UY327_FMwebp_QL65_.jpg"
         },{
             "id":8,
             "name":"Sony",
             "description":"Camara",
             "price":132000,
+            "category":"mobile",
             "image":"https://m.media-amazon.com/images/I/71j3bPnm+UL._AC_UY327_FMwebp_QL65_.jpg"
         },{
             "id":9,
             "name":"samsung",
             "description":"ajhdjhacavd",
             "price":40000,
+            "category":"mobile",
             "image":"https://m.media-amazon.com/images/I/41Qk2Ca0TEL._SX300_SY300_QL70_FMwebp_.jpg"
         },{
             "id":10,
             "name":"GoSriKi",
             "description":"Suit",
             "price":799,
+            "category":"women",
             "image":"https://m.media-amazon.com/images/I/71mX4WATh-L._AC_UL480_FMwebp_QL65_.jpg"
         },{
             "id":11,
             "name":"Libas",
-            "description":"suit",
+            "description":"women",
             "price":790,
             "image":"https://m.media-amazon.com/images/I/71X5DF+c+gL._AC_UL480_FMwebp_QL65_.jpg"
         },{
             "id":12,
-            "name":"samsung",
+            "name":"Redmi A4",
             "description":"ajhdjhacavd",
             "price":40000,
-            "image":"https://m.media-amazon.com/images/I/41Qk2Ca0TEL._SX300_SY300_QL70_FMwebp_.jpg"
+            "category":"mobile",
+            "image":"https://m.media-amazon.com/images/I/718HzJbvY1L._SX679_.jpg"
         },{
             "id":13,
-            "name":"samsung",
+            "name":"Oppo Reno",
             "description":"ajhdjhacavd",
-            "price":40000,
-            "image":"https://m.media-amazon.com/images/I/41Qk2Ca0TEL._SX300_SY300_QL70_FMwebp_.jpg"
+            "price":35885,
+            "category":"mobile",
+            "image":"https://m.media-amazon.com/images/I/31994rFQyvL._SX300_SY300_QL70_FMwebp_.jpg"
         },{
             "id":14,
-            "name":"samsung",
-            "description":"ajhdjhacavd",
-            "price":40000,
-            "image":"https://m.media-amazon.com/images/I/41Qk2Ca0TEL._SX300_SY300_QL70_FMwebp_.jpg"
+            "name":"Oneplue",
+            "description":"Oneplue Nord CE4",
+            "price":17990,
+            "category":"mobile",
+            "image":"https://images-na.ssl-images-amazon.com/images/I/31hcJbP0BuL._SX300_SY300_QL70_FMwebp_.jpg"
         },{
             "id":5,
-            "name":"samsung",
-            "description":"ajhdjhacavd",
-            "price":40000,
-            "image":"https://m.media-amazon.com/images/I/41Qk2Ca0TEL._SX300_SY300_QL70_FMwebp_.jpg"
+            "name":"Sunsung Galaxy s25 Ultra",
+            "description":"Galaxy S25 Ultra",
+            "price":165000,
+            "category":"mobile",
+            "image":"https://m.media-amazon.com/images/I/61sU8OqBs4L._AC_UY436_FMwebp_QL65_.jpg"
         },{
             "id":16,
-            "name":"samsung",
+            "name":"Moto G45",
             "description":"ajhdjhacavd",
-            "price":40000,
-            "image":"https://m.media-amazon.com/images/I/41Qk2Ca0TEL._SX300_SY300_QL70_FMwebp_.jpg"
+            "price":25000,
+            "category":"mobile",
+            "image":"https://m.media-amazon.com/images/I/413jpOkFR1L._SX300_SY300_QL70_FMwebp_.jpg"
         },{
             "id":17,
             "name":"samsung",
@@ -105,22 +120,267 @@
             "image":"https://m.media-amazon.com/images/I/41Qk2Ca0TEL._SX300_SY300_QL70_FMwebp_.jpg"
         },{
             "id":18,
-            "name":"samsung",
-            "description":"ajhdjhacavd",
-            "price":40000,
-            "image":"https://m.media-amazon.com/images/I/41Qk2Ca0TEL._SX300_SY300_QL70_FMwebp_.jpg"
+            "name":"Ac ",
+            "description":"Godrej AC",
+            "price":38000,
+            "category":"mobile",
+            "image":"https://m.media-amazon.com/images/I/51IQ+xDrilL._AC_UL640_FMwebp_QL65_.jpg"
         },{
             "id":19,
-            "name":"samsung",
+            "name":"Co-ors set",
             "description":"ajhdjhacavd",
-            "price":40000,
-            "image":"https://m.media-amazon.com/images/I/41Qk2Ca0TEL._SX300_SY300_QL70_FMwebp_.jpg"
+            "price":600,
+            "category":"mobile",
+            "image":"https://m.media-amazon.com/images/I/61zxHedeW1L._AC_UL640_FMwebp_QL65_.jpg"
         },{
             "id":20,
-            "name":"samsung",
+            "name":"Co-ors set",
+            "description":"Women coord set",
+            "price":400,
+            "category":"women",
+            "image":"https://m.media-amazon.com/images/I/518XYm80EbL._AC_UL640_FMwebp_QL65_.jpg"
+        },
+        {
+            "id":21,
+            "name":"Titen Watch",
+            "description":"watch for men",
+            "price":5600,
+            "category":"watch",
+            "image":"https://m.media-amazon.com/images/I/51qHC1wPnsL._SX679_.jpg"
+        },
+        {
+            "id":22,
+            "name":"Titen blue Watch",
+            "description":"watch for men",
+            "price":6600,
+            "category":"watch",
+            "image":"https://m.media-amazon.com/images/I/612u8XmL83L._SX679_.jpg"
+        },
+        {
+            "id":23,
+            "name":"Titen Raga Watch",
+            "description":"watch for women",
+            "price":5600,
+            "category":"watch",
+            "image":"https://m.media-amazon.com/images/I/41NAbQX10hL._SX300_SY300_QL70_FMwebp_.jpg"
+        },
+        {
+            "id":24,
+            "name":"Realme Nackband",
+            "description":"Nackband",
+            "price":1700,
+            "category":"bluetooth",
+            "image":"https://m.media-amazon.com/images/I/31N4g0XyWrL._SX300_SY300_QL70_FMwebp_.jpg"
+        },
+        {
+            "id":25,
+            "name":"Jhumar/Chandelier",
+            "description":"Decorativehut Exotic Crystal Chandelier or Jhumar for Home Decoration",
+            "price":5600,
+            "category":"Jhumar",
+            "image":"https://m.media-amazon.com/images/I/51QrDyYbyQL._SY445_SX342_QL70_FMwebp_.jpg"
+        },
+        {
+            "id":26,
+            "name":"Sony Speaker",
+            "description":"Bluetooth Speaker",
+            "price":10600,
+            "category":"Bluetooth Speaker",
+            "image":"https://m.media-amazon.com/images/I/31RIWmGzHaL._SX300_SY300_QL70_FMwebp_.jpg"
+        },
+        {
+            "id":27,
+            "name":"Alexa",
+            "description":"Alexa",
+            "price":9999,
+            "category":"Alexa",
+            "image":"https://m.media-amazon.com/images/I/41f80Qu98zL._SY300_SX300_.jpg"
+        },
+        {
+            "id":28,
+            "name":"Lamp",
+            "description":"Table Lamp",
+            "price":1600,
+            "category":"Lamp",
+            "image":"https://m.media-amazon.com/images/I/51hTy5o5eOL._AC_UL640_FMwebp_QL65_.jpg"
+        },{   "id":29,
+        "name":"Denim shirt",
+        "description":"men  shirt",
+        "price":1790,
+        "image":"https://m.media-amazon.com/images/I/81uTb5UwUgL._AC_UL640_FMwebp_QL65_.jpg"
+   
+
+    }
+    ],
+    "women":[
+        {
+            "id":10,
+            "name":"GoSriKi",
+            "description":"Suit",
+            "price":799,
+            "category":"women",
+            "image":"https://m.media-amazon.com/images/I/71mX4WATh-L._AC_UL480_FMwebp_QL65_.jpg"
+        },{
+            "id":11,
+            "name":"Libas",
+            "description":"women",
+            "price":790,
+            "image":"https://m.media-amazon.com/images/I/71X5DF+c+gL._AC_UL480_FMwebp_QL65_.jpg"
+        }
+    ],
+    "men":[
+        {   "id":29,
+            "name":"Denim shirt",
+            "description":"men  shirt",
+            "price":1790,
+            "image":"https://m.media-amazon.com/images/I/81uTb5UwUgL._AC_UL640_FMwebp_QL65_.jpg"
+       
+
+        }
+    ],
+    "decor":[
+        {
+            "id":25,
+            "name":"Jhumar/Chandelier",
+            "description":"Decorativehut Exotic Crystal Chandelier or Jhumar for Home Decoration",
+            "price":5600,
+            "category":"Jhumar",
+            "image":"https://m.media-amazon.com/images/I/51QrDyYbyQL._SY445_SX342_QL70_FMwebp_.jpg"
+       
+        },{
+            "id":27,
+            "name":"Alexa",
+            "description":"Alexa",
+            "price":9999,
+            "category":"Alexa",
+            "image":"https://m.media-amazon.com/images/I/41f80Qu98zL._SY300_SX300_.jpg"
+        },{
+            "id":28,
+            "name":"Lamp",
+            "description":"Table Lamp",
+            "price":1600,
+            "category":"Lamp",
+            "image":"https://m.media-amazon.com/images/I/51hTy5o5eOL._AC_UL640_FMwebp_QL65_.jpg"
+        }
+    ],
+    "mobile":[
+        {
+            "id":1,
+            "name":"Redmi",
             "description":"ajhdjhacavd",
             "price":40000,
+            "category":"mobile",
             "image":"https://m.media-amazon.com/images/I/41Qk2Ca0TEL._SX300_SY300_QL70_FMwebp_.jpg"
+        },
+        {
+            "id":2,
+            "name":"iPhone",
+            "description":"Advanced dual-camera system",
+            "price":70000,
+            "category":"mobile",
+            "image":"https://m.media-amazon.com/images/I/71xb2xkN5qL._SX679_.jpg"
+        },{
+            "id":3,
+            "name":"POCO X6",
+            "description":"Processor:Mediatek Dimensity",
+            "price":40000,
+            "image":"https://m.media-amazon.com/images/I/717kT9HNtOL._AC_.jpg"
+        },{
+            "id":4,
+            "name":"iQOo",
+            "description":"PROCESSOR : Powered by MediaTek Dimensity 7300 with 702K",
+            "price":40000,
+            "category":"mobile",
+            "image":"https://m.media-amazon.com/images/I/41tS3gyOW1L._SX300_SY300_QL70_FMwebp_.jpg"
+        },{
+            "id":5,
+            "name":"Lenovo",
+            "description":"Tablet",
+            "price":10000,
+            "category":"mobile",
+            "image":"https://m.media-amazon.com/images/I/61qwQehNiHL._AC_UY327_FMwebp_QL65_.jpg"
+        },{
+            "id":6,
+            "name":"Lenovo",
+            "description":"Lenovo ThinkPad 8th Gen Intel Core i5 Thin & Light HD Laptop",
+            "price":17999,
+            "category":"mobile",
+            "image":"https://m.media-amazon.com/images/I/611AaVzaCQL._AC_UY327_FMwebp_QL65_.jpg"
         }
-    ]
+
+    ],
+    "electronics":[
+        {
+            "id":7,
+            "name":"WZATCO",
+            "description":"Projector",
+            "price":9499,
+            "category":"mobile",
+            "image":"https://m.media-amazon.com/images/I/61cnRrZj5PL._AC_UY327_FMwebp_QL65_.jpg"
+        },{
+            "id":8,
+            "name":"Sony",
+            "description":"Camara",
+            "price":132000,
+            "category":"mobile",
+            "image":"https://m.media-amazon.com/images/I/71j3bPnm+UL._AC_UY327_FMwebp_QL65_.jpg"
+        },{
+            "id":18,
+            "name":"Ac ",
+            "description":"Godrej AC",
+            "price":38000,
+            "category":"mobile",
+            "image":"https://m.media-amazon.com/images/I/51IQ+xDrilL._AC_UL640_FMwebp_QL65_.jpg"
+        },{
+            "id":24,
+            "name":"Realme Nackband",
+            "description":"Nackband",
+            "price":1700,
+            "category":"bluetooth",
+            "image":"https://m.media-amazon.com/images/I/31N4g0XyWrL._SX300_SY300_QL70_FMwebp_.jpg"
+        },
+        {
+            "id":26,
+            "name":"Sony Speaker",
+            "description":"Bluetooth Speaker",
+            "price":10600,
+            "category":"Bluetooth Speaker",
+            "image":"https://m.media-amazon.com/images/I/31RIWmGzHaL._SX300_SY300_QL70_FMwebp_.jpg"
+        }
+    ],
+    "watch":[
+        
+            {
+                "id":21,
+                "name":"Titen Watch",
+                "description":"watch for men",
+                "price":5600,
+                "category":"watch",
+                "image":"https://m.media-amazon.com/images/I/51qHC1wPnsL._SX679_.jpg"
+            },
+            {
+                "id":22,
+                "name":"Titen blue Watch",
+                "description":"watch for men",
+                "price":6600,
+                "category":"watch",
+                "image":"https://m.media-amazon.com/images/I/612u8XmL83L._SX679_.jpg"
+            },
+            {
+                "id":23,
+                "name":"Titen Raga Watch",
+                "description":"watch for women",
+                "price":5600,
+                "category":"watch",
+                "image":"https://m.media-amazon.com/images/I/41NAbQX10hL._SX300_SY300_QL70_FMwebp_.jpg"
+            }
+        
+    ],
+    
+    "admin":[{
+        "email":"admin@gmail.com",
+        "password":"admin123"
+    }
+]
+
 }

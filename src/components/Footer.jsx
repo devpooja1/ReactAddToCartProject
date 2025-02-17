@@ -1,4 +1,4 @@
-import "../css/style.css"
+import "../css/footer.css"
 
 const Footer=()=>{
     return(
@@ -59,7 +59,7 @@ const Footer=()=>{
 
             </div>
             </div>
-            <div>
+            <div id="foot23">
             Conditions of Use & Sale
 Privacy Notice
 Interest-Based Ads

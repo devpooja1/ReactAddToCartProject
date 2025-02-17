@@ -1,0 +1,147 @@
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+#header > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#head1 h5 {
+    margin: 0;
+    font-size: 14px;
+}
+
+#header select,
+#header input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#header input {
+    width: 200px;
+}
+
+#header img {
+    object-fit: cover;
+}
+
+#header span {
+    display: flex;
+    align-items: center;
+}
+
+#header div:last-child {
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    #header {
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    #header input {
+        width: 150px;
+    }
+}
+
+@media (max-width: 768px) {
+    #header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #header > div {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    #header input {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    #header {
+        padding: 5px;
+    }
+
+    #header img {
+        height: 40px;
+        width: 80px;
+    }
+
+    #header input {
+        width: 100%;
+        padding: 8px;
+    }
+
+    #header div:last-child {
+        font-size: 16px;
+    }
+}
+
+/* -----select---- */
+div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 8px;
+    /* max-width: 400px; */
+    width: 100%;
+}
+
+span {
+    display: flex;
+    align-items: center;
+}
+
+select {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="search"] {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+}
+
+span:last-child {
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    div {
+        flex-direction: column;
+        gap: 5px;
+        padding: 6px;
+    }
+
+    select, input[type="search"] {
+        width: 100%;
+    }
+}
